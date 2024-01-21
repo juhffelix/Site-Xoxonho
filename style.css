@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0px;
+  background: #f7f7f7;
+  display: grid;
+  gap: 60px;
+  justify-items: center;
+}
+
+.gatoxoxonho {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  height: 50px;
+  position: absolute;
+  top: 150px;
+}
+
+a {
+  background-color: white;
+  border-radius: 5%;
+  color: black;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-size: large;
+}
+
+.centro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+  margin: 80px;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.intro {
+  background: #fff;
+  padding: 40px;
+  text-align: right;
+  position: relative;
+  display: grid;
+
+  align-content: center;
+  justify-items: end;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+.botao {
+  background-color: purple;
+  color: white;
+  text-decoration: none;
+  padding: 15px 30px;
+  font-size: large;
+  border-radius: 5%;
+}
+.gato1 {
+}
+
+p {
+  font-size: 15px;
+}
+.p1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 60px;
+  color: #c6c6c6;
+  text-align: end;
+  padding: 80px;
+}
+
+.pontos {
+  background-color: white;
+  width: 462px;
+  height: 400px;
+}
+
+.pontos-gato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px 1px;
+  width: 100px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.pontos-gato p {
+  grid-column: 2;
+  font-size: 15px;
+  margin: 2px;
+  width: 400px;
+}
+
+.rodape {
+  background: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 40px;
+  box-sizing: border-box;
+}
